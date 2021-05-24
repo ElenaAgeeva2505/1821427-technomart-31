@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Елена Агеева](https://up.htmlacademy.ru/htmlcss/31/user/1821427).
-* Наставник: `Неизвестно`.
+* Наставник: [Константин Соколов](https://htmlacademy.ru/profile/costigans).
 
 ---
 
