@@ -157,6 +157,9 @@ body {
     line-height: 18px;
     text-transform: uppercase;
   }
+  .h2-desctop{
+    display: none;
+  }
 
   .p-content{
     font-family: PT Sans;
