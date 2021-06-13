@@ -235,16 +235,18 @@ font-size: 16px;
 line-height: 18px;
 color:#FFFFFF;
 }
-.link-feedback, .footer-text{
+.feedback-container {
  font-family: Cuprum;
  font-style: normal;
  font-weight: normal;
  font-size: 16px;
  line-height: 8px;
- color:#FFD180;
+ }
+.feedback-container a{
+  color:#FFD180;
 }
 
-.footer-text{
+.feedback-container p{
   color:#ffffff;
 }
 
