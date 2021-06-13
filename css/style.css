@@ -71,31 +71,25 @@ body {
       color:#000000;
   }
 
-  .menu-desktop-item{
-    list-style: none;
-    width: 300px;
-    height: 123px;
-    background-color: #FFBF47;
-  }
-  
-
   .nav-menu{
       background-color: var(--basic-grey);
       
     }
 
-    .nav-item{
-        font-size: 18px;
+  .nav-item{
+    font-size: 18px;
+    display: inline-block;
+    margin: auto 46px;
     }
 
   .nav-list{
-      list-style: none;
-      color:var(--basic-white);
+    list-style: none;
+    color:var(--basic-white);
   }
 
   .nav-link, .top-bar-link{
-      color: var(--basic-white);
-      text-decoration: none;
+    color: var(--basic-white);
+    text-decoration: none;
   }
 
    .nav-item:hover{
@@ -106,6 +100,26 @@ body {
     list-style: none;
   }
 
+  .menu-desktop-item{
+    list-style: none;
+    width: 300px;
+    height: 123px;
+    background-color: #FFBF47;
+  }
+
+  .menu-desktop-p{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+  }
+  .h2-desctop{
+    display: none;
+  }
+  
   .menu-desktop-mat{
     background-color: #FFBF47;
   }
@@ -132,13 +146,18 @@ body {
     font-weight: normal;
     font-size: 14px;
     background-color:var(--basic-red);
-    width: 192px;
-    
+    text-transform: uppercase;
   }
 
   h2, h3{
     font-size: 30px;
     text-transform: uppercase;
+    color:var(--basic-grey);
+    font-style: normal;
+    font-weight: normal;
+  }
+  .h2-services,.h3-company, h2-product{
+    color:#000000;
   }
 
   .menu-product-link,.menu-service-link:link{
@@ -149,16 +168,20 @@ body {
   .menu-product-link,.menu-service-link:visited{
     color: #FFFFFF;
 }
-
-.menu-desktop-p{
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
+  .s-old-prise,.p-new-price{
+   font-family: PT Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 17px;
+   line-height: 18px;
+   text-transform: uppercase;
+   color: #A9A9A9;
   }
-  .h2-desctop{
-    display: none;
+  .p-new-price{
+    color: #FFFFFF;
+    background: var(--basic-red);
+    width:142px;
+    height:38px;
   }
 
   .p-content{
@@ -211,4 +234,20 @@ font-weight: normal;
 font-size: 16px;
 line-height: 18px;
 color:#FFFFFF;
+}
+.link-feedback, .footer-text{
+ font-family: Cuprum;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 8px;
+ color:#FFD180;
+}
+
+.footer-text{
+  color:#ffffff;
+}
+
+.feedback-container{
+  line-height: 3px;
 }
