@@ -228,7 +228,6 @@ img {
   background-color: var(--basic-grey);
 }
 
-.delivery-list {}
 
 .link-page {
   color: #FFFFFF;
@@ -256,6 +255,14 @@ img {
   font-weight: normal;
   font-size: 30px;
   line-height: 30px;
+}
+
+.company-block p, .services-container p, .contacts-block p {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
 }
 
 .delivery-list {
@@ -384,13 +391,7 @@ img {
   height: 38px;
 }
 
-.company-block p, .services-container p, .contacts-block p {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 24px;
-}
+
 
 .product-p {
   font-family: PT Sans;
