@@ -13,9 +13,8 @@
 </head>
 
 <body class="main-page">
-
   <div class="top-bar-container">
-    <a class="logo"><img src="img/logo.png" alt="Техномарт Логотип" width="220" height="68"></a>
+    <a href="index.html"><img src="img/logo.png" alt="Техномарт Логотип" width="220" height="50" class="logo"></a>
     <label class="search-label">
       Поиск:<input type="search">
     </label>
@@ -37,7 +36,6 @@
       <a href="#" class="reg-link">Регистрация</a>
     </div>
 
-
     <nav class="nav-menu">
       <ul class="nav-list">
         <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
@@ -54,30 +52,31 @@
   <main>
     <section class="menu-desktop">
       <h2 class="h2-desctop">Техномарт</h2>
-      <ul class="menu-list-product">
-        <li class="menu-desktop-mat">
-          <a href="#" class="menu-product-link">Материалы</a>
-          <p class="menu-desktop-p">На любой вкус</p>
-        </li>
-        <li class="menu-desktop-tools">
-          <a href="#" class="menu-product-link">Инструменты</a>
-          <p class="menu-desktop-p">На все случаи</p>
-        </li>
-        <li class="menu-desktop-tech">
-          <a href="#" class="menu-product-link">Техника</a>
-          <p class="menu-desktop-p">Для стройки</p>
-        </li>
-      </ul>
-      <ul class="menu-list-service">
-        <li class="menu-desktop-sale">
+      
+      <div class="menu-list-service">
+        <div class="menu-desktop-sale">
           <a href="#" class="menu-service-link">Скидка 50%</a>
           <p class="menu-desktop-p">На 350 товаров</p>
-        </li>
-        <li class="menu-desktop-del">
+        </div>
+        <div class="menu-desktop-del">
           <a href="#" class="menu-service-link">Доставка</a>
           <p class="menu-desktop-p">Бесплатно</p>
-        </li>
-      </ul>
+        </div>
+      </div>
+      <div class="menu-list-product">
+        <div class="menu-desktop-mat">
+          <a href="#" class="menu-product-link">Материалы</a>
+          <p class="menu-desktop-p">На любой вкус</p>
+        </div>
+        <div class="menu-desktop-tools">
+          <a href="#" class="menu-product-link">Инструменты</a>
+          <p class="menu-desktop-p">На все случаи</p>
+        </div>
+        <div class="menu-desktop-tech">
+          <a href="#" class="menu-product-link">Техника</a>
+          <p class="menu-desktop-p">Для стройки</p>
+        </div>
+      </div>
       <div class="slider">
         <figure>
           <a href="#">
@@ -138,67 +137,67 @@
     </section>
 
     <section class="brand-container">
-      <div class="brand_item-content">
+      <div class="brand-item-content">
         <h2>Популярные производители</h2>
         <p><a href="#" class="link-all">Все производители</a>
       </div>
-      <ul class="brand_list">
+      <ul class="brand-list">
         <li class="brand_item"><a href="#">
             <img src="img/bosch.png" width="220" height="145" alt="bosch">
           </a>
         </li>
-        <li class="brand_item"><a href="#">
+        <li class="brand-item"><a href="#">
             <img src="img/Makita.png" width="220" height="145" alt="Makita">
           </a>
         </li>
-        <li class="brand_item"><a href="#">
+        <li class="brand-item"><a href="#">
             <img src="img/DeWALT.png" width="220" height="145" alt="DeWalt">
           </a>
         </li>
-        <li class="brand_item"><a href="#">
+        <li class="brand-item"><a href="#">
             <img src="img/Interskol.png" width="220" height="145" alt="Интерскол">
           </a>
         </li>
-        <li class="brand_item"><a href="#">
+        <li class="brand-item"><a href="#">
             <img src="img/Hitachi.png" width="220" height="145" alt="Hitachi">
           </a>
         </li>
-        <li class="brand_item"><a href="#">
+        <li class="brand-item"><a href="#">
             <img src="img/LG.png" width="220" height="145" alt="LG">
           </a>
         </li>
-        <li class="brand_item"><a href="#">
+        <li class="brand-item"><a href="#">
             <img src="img/AEG.png" width="220" height="145" alt="AEG">
           </a>
         </li>
-        <li class="brand_item"><a href="#">
+        <li class="brand-item"><a href="#">
             <img src="img/Metabo.png" width="220" height="145" alt="Metabo">
           </a>
         </li>
       </ul>
     </section>
 
-    <section class="services">
-      <h2 class="h2-services">Сервисы</h2>
-      <p class="p-content">Хороший интернет-магазин отличается от плохого не только ценами!<br>
+    <div class="services-container">
+      <h2>Сервисы</h2>
+      <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
         Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-      <ul class="services-list">
-        <li class="services-item"><a href="#">Доставка</a></li>
-        <li class="services-item"><a href="#">Гарантия</a></li>
-        <li class="services-item"><a href="#">Кредит</a></li>
+      <ul class="service-list">
+        <li class="service-item"><a href="#">Доставка</a></li>
+        <li class="service-item"><a href="#">Гарантия</a></li>
+        <li class="service-item"><a href="#">Кредит</a></li>
       </ul>
-      <div class="service-container">
+      <div class="service-item-more">
         <h2>Доставка</h2>
-        <p class="p-content">Мы с удовольствием доставим ваш товар прямо <br>
+        <p>Мы с удовольствием доставим ваш товар прямо <br>
           к вашему подъезду совершенно бесплатно!<br>
           Ведь мы неплохо заработаем, <br>
           поднимая его на ваш этаж! </p>
       </div>
-    </section>
+    </div>
 
-    <section class="company-block">
-      <h3 class="h3-company">Компания "Техномарт"</h3>
-      <p class="p-content">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта<br> и
+    <div class="company-block">
+      <h3>Компания "Техномарт"</h3>
+      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта<br> и
         строительства не оставит равнодушными любителей сэкономить на<br> гастарбайтерах.
 
         Мы можем доставить ваш товар в самые отдаленные точки России!<br>
@@ -209,22 +208,23 @@
         <li class="delivery-item">ЖелДорЭкспедиция</li>
       </ul>
       <a href="#" class="link-all">Подробнее о компании</a>
-    </section>
+    </div>
 
-    <div class="homepage-contacts-block">
-      <h3 class="h3-company">Контакты</h3>
-      <p class="p-content">Вы можете забрать товар сами,
+    <div class="contacts-block">
+      <h3>Контакты</h3>
+      <p>Вы можете забрать товар сами,
         заехав в наш офис:</p>
-      <div class="maps">
+      <div class="maps-container">
         <a href=""><img src="img/maps.jpg" alt="Техномарт: карта" width="300" height="158"></a>
       </div>
       <a href="#" class="link-all">Заблудились? Напишите нам</a>
     </div>
   </main>
+  
 
   <footer>
     <div class="footer-top">
-      <a href="#" class="logo"><img src="img/logo.png" alt="Техномарт Логотип" width="220" height="68"></a>
+      <a href="#"><img src="img/logo.png" alt="Техномарт Логотип" width="220" height="68" class="logo"></a>
       <address>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</address>
       <a href="tel:+78005558628" class="footer-tel">+7 800 555-86-28</a>
       <ul class="top-footer-list">
