@@ -32,11 +32,9 @@ main {
   padding: 0 10px;
 }
 
-.nav-menu {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
+
+
+
 
 a {
   text-decoration: none;
@@ -100,6 +98,9 @@ img {
 
 .nav-menu {
   background-color: var(--basic-grey);
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .nav-item {
@@ -250,7 +251,7 @@ img {
   color: #FFD180;
 }
 
-address, .footer-tel {
+.footer-top address, .footer-tel {
   color: #FFFFFF;
   font-size: 18px;
   font-weight: normal;
