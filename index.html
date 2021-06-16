@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="css/normalize.css" />
   <link type="text/css" rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="favicon.ico" />
   <title>HTML Academy: Техномарт</title>
@@ -27,14 +28,14 @@
 
   <header class="head-main">
     <div class="head-top">
-    <div class="header-info">
+    <div class="head-info">
       <p class="head-text">Интернет-магазин <br>строительных материалов <br>и инструментов для ремонта</p>
     </div>
     <div class="head-contact">
       <a href="tel:+78005558628" class="phone-info">+7 800 555-86-28</a>
       <address class="adress-info">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</address>
     </div>
-    <div class="header-login">
+    <div class="head-login">
       <a href="#" class="entry-link">Войти</a>
       <a href="#" class="reg-link">Регистрация</a>
     </div>
@@ -56,17 +57,7 @@
   <main>
     <section class="menu-desktop">
       <h2 class="h2-desctop">Техномарт</h2>
-      
-      <div class="menu-list-service">
-        <div class="menu-desktop-sale">
-          <a href="#" class="menu-service-link">Скидка 50%</a>
-          <p class="menu-desktop-p">На 350 товаров</p>
-        </div>
-        <div class="menu-desktop-del">
-          <a href="#" class="menu-service-link">Доставка</a>
-          <p class="menu-desktop-p">Бесплатно</p>
-        </div>
-      </div>
+
       <div class="menu-list-product">
         <div class="menu-desktop-mat">
           <a href="#" class="menu-product-link">Материалы</a>
@@ -81,6 +72,18 @@
           <p class="menu-desktop-p">Для стройки</p>
         </div>
       </div>
+      
+      <div class="menu-list-service">
+        <div class="menu-desktop-sale">
+          <a href="#" class="menu-service-link">Скидка 50%</a>
+          <p class="menu-desktop-p">На 350 товаров</p>
+        </div>
+        <div class="menu-desktop-del">
+          <a href="#" class="menu-service-link">Доставка</a>
+          <p class="menu-desktop-p">Бесплатно</p>
+        </div>
+      </div>
+      
       <div class="slider">
         <figure>
           <a href="#">
@@ -88,7 +91,7 @@
           </a>
           <p>Предыдущий слайд</p>
           <p>Следующий слайд</p>
-          <a href="catalog.html" class="link-all">Открыть каталог</a>
+          <a href="catalog.html" class="link-page">Открыть каталог</a>
         </figure>
       </div>
     </section>
@@ -96,7 +99,7 @@
     <section class="container">
       <div class="pop-container">
         <h2>Популярные товары:</h2>
-        <p><a href="#" class="link-all">Все популярные товары</a>
+        <p><a href="#" class="link-page">Все популярные товары</a>
       </div>
       <ul class="product-list">
         <li class="product-wrapper"><a href="#">
@@ -142,11 +145,11 @@
 
     <section class="brand-container">
       <div class="brand-item-content">
-        <h2>Популярные производители</h2>
-        <p><a href="#" class="link-all">Все производители</a>
+        <h2>Популярные производители:</h2>
+        <p><a href="#" class="link-page">Все производители</a>
       </div>
       <ul class="brand-list">
-        <li class="brand_item"><a href="#">
+        <li class="brand-item"><a href="#">
             <img src="img/bosch.png" width="220" height="145" alt="bosch">
           </a>
         </li>
@@ -182,16 +185,16 @@
     </section>
 
     <div class="services-container">
-      <h2>Сервисы</h2>
+      <h3>Сервисы</h3>
       <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
         Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
       <ul class="service-list">
-        <li class="service-item"><a href="#">Доставка</a></li>
-        <li class="service-item"><a href="#">Гарантия</a></li>
-        <li class="service-item"><a href="#">Кредит</a></li>
+        <li class="service-item"><a href="#" class="service-item-link">Доставка</a></li>
+        <li class="service-item"><a href="#" class="service-item-link">Гарантия</a></li>
+        <li class="service-item"><a href="#" class="service-item-link">Кредит</a></li>
       </ul>
       <div class="service-item-more">
-        <h2>Доставка</h2>
+        <h3>Доставка</h3>
         <p>Мы с удовольствием доставим ваш товар прямо <br>
           к вашему подъезду совершенно бесплатно!<br>
           Ведь мы неплохо заработаем, <br>
@@ -211,7 +214,7 @@
         <li class="delivery-item">Автотрейдинг</li>
         <li class="delivery-item">ЖелДорЭкспедиция</li>
       </ul>
-      <a href="#" class="link-all">Подробнее о компании</a>
+      <a href="#" class="link-page">Подробнее о компании</a>
     </div>
 
     <div class="contacts-block">
@@ -221,7 +224,7 @@
       <div class="maps-container">
         <a href=""><img src="img/maps.jpg" alt="Техномарт: карта" width="300" height="158"></a>
       </div>
-      <a href="#" class="link-all">Заблудились? Напишите нам</a>
+      <a href="#" class="link-page">Заблудились? Напишите нам</a>
     </div>
   </main>
   
