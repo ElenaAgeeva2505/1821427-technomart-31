@@ -41,23 +41,34 @@ img {
   height: auto;
 }
 
+.logo-container{
+  grid-column: 2/2;
+  margin-right: 20px;
+  
+}
+
 .logo {
-  height: 50px;
+  height: 47px;
   width: 220px;
   background-color: var(--basic-red);
   color: #ffffff;
   text-transform: uppercase;
   font-size: 20px;
-  text-align: center;
   object-fit: cover;
+    
+
 }
 
 .order-link {
   background-color: var(--basic-green);
   border: none;
-  display: inline-block;
   padding: 9px 16px;
 }
+
+.search-label{
+  grid-column: 3/3;
+  margin:12px 0;
+  }
 
 .top-bar-list a {
   color: #ffffff;
@@ -66,7 +77,25 @@ img {
 }
 
 .top-bar-container {
+  height: 42px;
   background-color: var(--basic-dark);
+  display: grid;
+  grid-template-columns: 200px 220px 1fr;
+  align-content:center;
+  
+ }
+
+.top-bar-list {
+  margin-right: 140px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  grid-column: -1/-1;
+ }
+
+.top-bar-link{
+  margin-right: 50px;
+  
 }
 
 .head-top {
@@ -152,8 +181,6 @@ img {
 
 .menu-desktop-p {
   color: #f3f0f0;
-  opacity: 0.3;
-  background: #FFFFFF;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -193,7 +220,7 @@ img {
   margin-bottom: 70px;
 }
 
-.product-container{
+.product-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
@@ -205,7 +232,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
 
 .product-wrapper {
@@ -214,9 +240,8 @@ img {
   height: 320px;
 }
 
-.product-wrapper:nth-child(3n){
+.product-wrapper:nth-child(3n) {
   margin-right: 0;
-
 }
 
 .brand-list {
@@ -354,11 +379,10 @@ img {
   column-gap: 20px;
 }
 
-.catalog{
+.catalog {
   grid-column: 2/-1;
   grid-row: 2/-1;
 }
-
 
 .filter-container {
   width: 220px;
@@ -372,7 +396,7 @@ img {
   text-transform: uppercase;
 }
 
-.bread-crumbs-item{
+.bread-crumbs-item {
   display: inline-block;
 }
 
@@ -387,20 +411,19 @@ img {
   text-decoration-color: var(--basic-red);
 }
 
-.sort-list{
+.sort-list {
   display: flex;
-  justify-content:start;
+  justify-content: start;
 }
 
-.sort-container{
+.sort-container {
   display: flex;
   grid-column: 2/-1;
 }
 
-.sort-item{
+.sort-item {
   margin-left: 70px;
 }
-
 
 .sort-link:hover {
   color: var(--basic-red);
@@ -418,12 +441,11 @@ img {
 .pagination-list {
   list-style: none;
   display: flex;
-  justify-content:star;
+  justify-content: star;
 }
 
-.pagination-item{
-  margin-right:25px;
-
+.pagination-item {
+  margin-right: 25px;
 }
 
 .a-next-page {
