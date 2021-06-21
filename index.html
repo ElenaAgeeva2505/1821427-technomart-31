@@ -58,34 +58,24 @@
 
   <main>
     <section class="menu-desktop">
-      <h2 class="h2-desctop">Техномарт</h2>
+      <h2>Техномарт</h2>
 
       <div class="menu-list-product">
-        <div class="menu-desktop-mat">
+        <div class="menu-desktop-item mat">
           <a href="#" class="menu-product-link">Материалы</a>
           <p class="menu-desktop-p">На любой вкус</p>
         </div>
-        <div class="menu-desktop-tools">
+        <div class="menu-desktop-item tools">
           <a href="#" class="menu-product-link">Инструменты</a>
           <p class="menu-desktop-p">На все случаи</p>
         </div>
-        <div class="menu-desktop-tech">
+        <div class="menu-desktop-item tech">
           <a href="#" class="menu-product-link">Техника</a>
           <p class="menu-desktop-p">Для стройки</p>
         </div>
       </div>
-      
-      <div class="menu-list-service">
-        <div class="menu-desktop-sale">
-          <a href="#" class="menu-service-link">Скидка 50%</a>
-          <p class="menu-desktop-p">На 350 товаров</p>
-        </div>
-        <div class="menu-desktop-del">
-          <a href="#" class="menu-service-link">Доставка</a>
-          <p class="menu-desktop-p">Бесплатно</p>
-        </div>
-      </div>
-      
+
+      <div class="flex-container">
       <div class="slider">
         <figure>
           <a href="#">
@@ -96,6 +86,21 @@
           <a href="catalog.html" class="link-page">Открыть каталог</a>
         </figure>
       </div>
+      
+      <div class="menu-list-service">
+        <div class="menu-desktop-item sale">
+          <a href="#" class="menu-service-link">Скидка 50%</a>
+          <p class="menu-desktop-p">На 350 товаров</p>
+        </div>
+        <div class="menu-desktop-item del">
+          <a href="#" class="menu-service-link">Доставка</a>
+          <p class="menu-desktop-p">Бесплатно</p>
+        </div>
+      </div>
+      </div>
+      
+      
+     
     </section>
 
     <section class="container">
@@ -234,10 +239,13 @@
   
 
   <footer>
-    <div class="footer-top">
+      <div class="footer-top">
+      <div class="footer-logo">
       <a href="#"><img src="img/logo.png" alt="Техномарт Логотип" width="220" height="68" class="logo"></a>
       <address>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</address>
       <a href="tel:+78005558628" class="footer-tel">+7 800 555-86-28</a>
+    </div>
+    <div class="footer-list">
       <ul class="top-footer-list">
         <li><a href="#" class="top-footer-link">Компания </a></li>
         <li><a href="#" class="top-footer-link">Новости </a></li>
@@ -252,22 +260,24 @@
         <li><a href="#" class="low-footer-link">Спецпредложения </a></li>
       </ul>
     </div>
+  </div>
 
 
     <div class="footer-bottom">
-      <p class="copyright-p">© 2010–2021 Компания «Техномарт»Все права защищены</p>
+      <p class="copyright-p">© 2010–2021 Компания «Техномарт»<br>Все права защищены</p>
       <ul class="social-list">
-        <li><a href="#" class="social-item"><img src="img/icon-vk.svg" alt="vkontakte" width="26" height="15"></a>
+        <li class="social-item"><a href="#"><img src="img/icon-vk.svg" alt="vkontakte" width="26" height="15" class="img-social"></a>
         </li>
-        <li><a href="#" class="social-item"><img src="img/icon-fb.svg" alt="facebook" width="26" height="15"></a>
+        <li class="social-item"><a href="#"><img src="img/icon-fb.svg" alt="facebook" width="26" height="15" class="img-social"></a>
         </li>
-        <li><a href="#" class="social-item"><img src="img/icon-insta.svg" alt="instagram" width="26" height="15"></a></li>
+        <li class="social-item"><a href="#"><img src="img/icon-insta.svg" alt="instagram" width="26" height="15" class="img-social"></a></li>
       </ul>
-      <div class="feedback-container">
-        <p class="footer-text">Обратная связь:</p><a href="#" class="link-feedback">mail@htmlacademy.ru</a><br>
-        <p class="footer-text">Разработано — </p><a href="https://htmlacademy.ru"
-          class="link-feedback">htmlacademy.ru</a>
-      </div>
+      <ul class="feedback-container">
+        <li class="feedback-item">Обратная связь:</li>
+        <li class="feedback-item"><a href="#">mail@htmlacademy.ru</a></li>
+        <li class="feedback-item">Разработано — </li>
+        <li class="feedback-item"><a href="https://htmlacademy.ru"> htmlacademy.ru</a></li>
+      </ul>
     </div>
   </footer>
 </body>
