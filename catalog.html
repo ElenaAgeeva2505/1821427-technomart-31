@@ -37,8 +37,8 @@
         <address class="adress-info">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</address>
       </div>
       <div class="head-login">
-        <a href="#">Мои заказы</a>
-        <a href="#">Личный кабинет</a>
+        <a href="#" class="head-link">Мои заказы</a>
+        <a href="#" class="head-link">Личный кабинет</a>
       </div>
     </div>
 
@@ -56,78 +56,79 @@
   </header>
 
   <main>
+    <h1 class="visually-hidden">Каталог товаров интернет-магазина "Техномарт"</h1>
     <ul class="bread-crumbs">
       <li class="bread-crumbs-item">Каталог</li>
       <li class="bread-crumbs-item">Инструмент</li>
       <li class="bread-crumbs-item">Перфораторы</li>
     </ul>
 
-    <div class="container-category">
-      <h2 class="head-category">Перфораторы</h2>
+    <div class="section-heading section-heading-catalog">
+      <h2>Перфораторы</h2>
     </div>
 
      <div class="filter-container">
         <h2 class="head-filter">Фильтр:</h2>
         <form method="get" action="https://echo.htmlacademy.ru">
           <fieldset>
-            <legend>Цена:</legend>
+            <legend class="legend-heading">Цена:</legend>
             <input type="range" min="0" max="30000" value="100" id="PriceRange">
             <label>От <input type="text" name="min-interval" value="0"></label>
             <label>До <input type="text" name="max-interval" value="30000"></label>
           </fieldset>
-          <fieldset>
-            <legend>Производители:</legend>
+          <fieldset class="fieldset-prod">
+            <legend class="legend-heading">Производители:</legend>
             <ul>
               <li>
                 <input type="checkbox" name="bosch" id="filter-bosch" checked>
-                <label for="filter-bosch">Bosch</label>
+                <label for="filter-bosch" class="filter-label">Bosch</label>
               </li>
               <li>
                 <input type="checkbox" name="Interskol" id="filter-interskol">
-                <label for="filter-interskol">Интерскол</label>
+                <label for="filter-interskol" class="filter-label">Интерскол</label>
               </li>
               <li>
                 <input type="checkbox" name="Makita" id="filter-makita" checked>
-                <label for="filter-makita">Makita</label>
+                <label for="filter-makita" class="filter-label">Makita</label>
               </li>
               <li>
                 <input type="checkbox" name="Dewalt" id="filter-dewalt">
-                <label for="filter-dewalt">Dewalt</label>
+                <label for="filter-dewalt" class="filter-label">Dewalt</label>
               </li>
               <li>
                 <input type="checkbox" name="Hitachi" id="filter-hitachi">
-                <label for="filter-hitachi">Hitachi</label>
+                <label for="filter-hitachi" class="filter-label">Hitachi</label>
               </li>
             </ul>
           </fieldset>
           <fieldset>
-            <legend>Питание:</legend>
+            <legend class="legend-heading">Питание:</legend>
             <ul>
               <li>
                 <input type="radio" name="energy-group" value="battery" id="filter-battery">
-                <label for="filter-battery">Аккумулятор</label>
+                <label for="filter-battery" class="filter-label">Аккумулятор</label>
               </li>
               <li>
                 <input type="radio" name="energy-group" value="network" id="filter-network" checked>
-                <label for="filter-network">Сетевые</label>
+                <label for="filter-network" class="filter-label">Сетевые</label>
               </li>
             </ul>
           </fieldset>
-          <button type="submit">Показать</button>
+          <button type="submit" class="filter-button">Показать</button>
         </form>
       </div>
 
       <div class="sort-container">
         <h2 class="head-sort">Сортировка:</h2>
         <ul class="sort-list">
-          <li class="sort-item"><a href="#" class="sort-link">По цене</a></li>
-          <li class="sort-item"><a href="#" class="sort-link">По типу</a></li>
-          <li class="sort-item"><a href="#" class="sort-link">По функционалу</a></li>
+          <li class="sort-item"><a href="#">По цене</a></li>
+          <li class="sort-item"><a href="#">По типу</a></li>
+          <li class="sort-item"><a href="#">По функционалу</a></li>
         </ul>
       </div>
 
       <section class="catalog">
-        <h1>Каталог товаров</h1>
+        <h2 class="visually-hidden">Каталог товаров</h2>
           <ul class="product-list">
             <li class="product">
               <a href="#">
@@ -190,8 +191,8 @@
         </div>
 
     <div class="about-product-container">
-      <h2 class="h2-product">Пара слов о перфораторах</h2>
-      <p class="p-about-product">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и
+      <h2>Пара слов о перфораторах</h2>
+      <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и
         долбления отверстий в кирпиче, бетоне и камне.
         Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,
         шуруповерта и отбойного молотка.
