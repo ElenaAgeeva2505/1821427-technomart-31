@@ -13,9 +13,12 @@
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  width:100%;
   min-width: 960px;
   margin: 0;
   padding: 0;
@@ -26,14 +29,6 @@ body {
   line-height: 24px;
   color:var(--basic-dark);
   background-color: var(--basic-white);
-}
-
-}
-
-main {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0;
 }
 
 a {
@@ -47,10 +42,6 @@ img {
 
 .head-top-logo {
   object-fit: cover;
-}
-
-.search-button {
-  visibility: hidden;
 }
 
 .head-top {
@@ -132,7 +123,16 @@ img {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin:-1px;
+  border:0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip:(0 0 0 0);
+  overflow: hidden;
 }
 
 .offers-mat {
