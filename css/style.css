@@ -40,13 +40,14 @@ img {
   height: auto;
 }
 
-.head-top-logo {
-  object-fit: cover;
-}
-
 .head-top {
   background-color: var(--basic-dark);
 }
+
+.header-top-logo, .footer-logo{
+  background-color:var(--basic-red);
+}
+
 
 .search-label {
   color:var(--basic-white);
@@ -155,34 +156,36 @@ img {
   background-color: #FFBF47;
 }
 
-.offers-product-list a, .offers-service-list a {
+.offers-product-list p, .offers-service-list p {
   font-weight: bold;
   font-size: 24px;
   color: var(--basic-white);
 }
 
-.offers-product-list p, .offers-service-list p {
+.offers-product-list a, .offers-service-list a {
   font-size: 14px;
   color: var(--basic-white);
+  background-color:rgb(255, 255, 255,0.3);
 }
 
-.offers-product-list p:hover, .offers-service-list p:hover {
-   background-color: #C5C5C5;
-   opacity: 0.3;
+.offers-product-list a:hover, .offers-service-list a:hover {
+  background-color:rgb(197, 197, 197,0.3);
 }
 
-.offers-product-list p:active, .offers-service-list p:active{
-  background-color: #A9A9A9;
-  opacity: 0.3;
+.offers-product-list a:active, .offers-service-list a:active{
+  background-color:rgb(169, 169, 169,0.3);
 }
 
 .slider-list h3 {
   font-weight: bold;
   font-size: 36px;
+  color: var(--basic-white);
+  text-transform: uppercase;
 }
 
 .slider-list p {
   font-size: 18px;
+  color: var(--basic-white);
 }
 
 .slider-link {
@@ -218,6 +221,10 @@ img {
   font-weight: bold;
   font-size: 18px;
   color: #000000;
+}
+
+.product-buttons{
+  display: none;
 }
 
 .p-new-price {
@@ -278,7 +285,13 @@ img {
   background-color: var(--basic-grey);
 }
 
+.service-item-link-active{
+  color:var(--basic-grey);
+  background-color: var(--basic-white);
+}
+
 .service-item-link:hover{
+  color:var(--basic-white);
   background-color: var(--basic-dark);
 
 }
@@ -333,13 +346,23 @@ img {
   text-decoration:underline var(--basic-white);
 }
 
-.low-footer-list a {
+.footer-top-list a:active{
+  opacity: 50%;
+  text-decoration: none;
+}
+
+.footer-low-list a {
   font-size: 18px;
   color: #FFD180;
 }
 
-.low-footer-list a:hover{
+.footer-low-list a:hover{
   text-decoration:underline #FFD180;
+}
+
+.footer-low-list a:active{
+  opacity: 50%;
+  text-decoration: none;
 }
 
 .footer-middle address, .footer-tel {
@@ -354,12 +377,21 @@ img {
 
 .feedback-container p {
   font-size: 16px;
-  color: #FFD180;
+  color: var(--basic-white);
 }
 
 .feedback-container a {
   font-size: 16px;
-  color: var(--basic-white);
+  color: #FFD180;
+}
+
+.feedback-container a:hover{
+  text-decoration: underline;
+}
+
+.feedback-container a:active{
+  text-decoration: none;
+  color:var(--basic-red);
 }
 
 .head-link {
@@ -438,13 +470,20 @@ img {
   font-size: 13px;
   text-transform: uppercase;
   color: #000000;
-  border: 1px solid #EAEAEA;
   mix-blend-mode: normal;
   opacity: 0.3;
+  border-bottom: 1px dashed var(--basic-red);
 }
 
 .sort-list a:hover{
   opacity: 1;
+  border-bottom:1px solid var(--basic-red);
+}
+
+.sort-link-active{
+  opacity: 1;
+  border-bottom: none;
+  color: var(--basic-red);
 }
 
 .pagination-item, .pagination a {
