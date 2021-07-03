@@ -204,6 +204,35 @@ header {
   display: flex;
 }
 
+.authorized-login{
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-account-link{
+  display: flex;
+  justify-content:center;
+}
+
+.user-link{
+  padding: 12px 57px;
+  background-color: #ffffff;
+  font-size: 21px;
+  color: #000000;
+}
+
+.user-link:active {
+  color: #C5C5C5;
+}
+
+.authorized-login-hidden{
+  display: none;
+}
+
+.head-login-hidden{
+  display: none;
+}
+
 .entry-link {
   margin-right: 10px;
 }
@@ -221,6 +250,19 @@ header {
 }
 
 .entry-link:active, .reg-link:active {
+  color: #C5C5C5;
+}
+
+.account-link {
+  font-size: 16px;
+  color: var(--basic-grey);
+}
+
+.account-link:hover {
+  color: var(--basic-red);
+}
+
+.account-link:active {
   color: #C5C5C5;
 }
 
@@ -876,28 +918,6 @@ header {
   color: var(--basic-red);
 }
 
-.head-link {
-  font-size: 16px;
-  color: var(--basic-grey);
-}
-
-.head-link:hover {
-  color: var(--basic-red);
-}
-
-.head-link:active {
-  color: #C5C5C5;
-}
-
-.user-link {
-  font-size: 21px;
-  color: #000000;
-}
-
-.user-link:active {
-  color: #C5C5C5;
-}
-
 /*catalog*/
 .main-container-catalog {
   width: 940px;
@@ -908,14 +928,6 @@ header {
   grid-template-columns: 240px 1fr;
 }
 
-.user-link{
-  padding: 12px 57px;
-  background-color: #ffffff;
-}
-
-.authorized-login{
-  flex-direction: column;
-}
 
 .bread-crumbs {
   list-style: none;
