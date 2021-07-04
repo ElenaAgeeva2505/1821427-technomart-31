@@ -384,6 +384,8 @@ header {
   flex-basis: 30%;
   min-height: 123px;
   padding-left: 24px;
+  padding-top:20px;
+  padding-bottom: 20px;
   margin-right: 20px;
 }
 
@@ -411,6 +413,8 @@ header {
   min-height: 123px;
   margin-bottom: 20px;
   padding-left: 24px;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 
 .offers-service-item:last-child{
@@ -441,6 +445,9 @@ header {
   font-weight: bold;
   font-size: 24px;
   color: var(--basic-white);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 .offers-product-list a, .offers-service-list a {
@@ -450,7 +457,6 @@ header {
   background-color: rgb(255, 255, 255, 0.3);
   padding: 10px 24px;
   max-width: 130px;
-  display: block;
   text-align: center;
   margin: 0;
 }
@@ -720,7 +726,24 @@ header {
   color: var(--basic-white);
   background-color: var(--basic-red);
   display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  padding-right: 45px;
+  position: relative;
 }
+
+.p-new-price::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -22px;
+  width: 0;
+  height: 0;
+  border: 20px solid #FFFFFF;
+  border-left-color: #ee3643;
+}
+
 
 .s-old-prise {
   font-family: PT Sans;
@@ -1092,10 +1115,6 @@ header {
   justify-content: space-between;
 }
 
-.social-item {
-  margin-right: 15px;
-}
-
 .copyright-p {
   font-size: 16px;
   color: var(--basic-white);
@@ -1292,12 +1311,6 @@ header {
   font-size: 16px;
 }
 
-.filter-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .filter-container h2, .head-sort {
   font-family: PT Sans;
   font-size: 13px;
@@ -1316,6 +1329,28 @@ header {
   font-size: 17px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.legend-heading-energ{
+  margin-top: 20px;
+}
+
+.filter-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.filter-list::after,
+.range-filter::after{
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 1px;
+  background: rgb(0, 0, 0,0.1);
+  margin-left: -10px;
   margin-top: 20px;
 }
 
@@ -1510,4 +1545,9 @@ header {
 .about-product-container p {
   font-family: PT Sans;
   font-size: 13px;
+}
+
+/*popup*/
+.popup-addproduct{
+  display: none;
 }
