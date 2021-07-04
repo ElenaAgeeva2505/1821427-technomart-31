@@ -27,14 +27,14 @@
           </svg>
         </a>
 
-        <form class="search-form">
+        <form class="search-form" method="get">
           <label class="search-label">
             Поиск: <input type="search" name="search">
           </label>
           <button type="submit" class="visually-hidden">Поиск</button>
         </form>
         <ul class="head-top-list">
-          <li class="head-top-item"><a href="#">Закладки: 0</a></li>
+          <li class="head-top-item"><a href="#" class="bookmark-link">Закладки: 0</a></li>
           <li class="head-top-item"><a href="#">Корзина: 0</a></li>
           <li class="head-top-item"><a href="#" class="order-link">Оформить заказ</a></li>
         </ul>
@@ -118,15 +118,12 @@
             <p>Соседям на радость</p>
             <img src="img/drill.png" alt="Перфораторы" width="620" height="266">
           </div>
-          <div class="slider-control">
-            <button>Предыдущий слайд</button>
-            <button>Следующий слайд</button>
-          </div>
+          <button class="prev-slide-button">Предыдущий слайд</button>
+          <button class="next-slide-button">Следующий слайд</button>
           <a href="catalog.html" class="slider-link">Открыть каталог</a>
         </div>
 
       </section>
-
 
       <section class="section-container">
         <div class="section-heading">
@@ -141,8 +138,8 @@
               <p class="p-new-price">25500 p.</p>
             </div>
             <div class="product-buttons">
-              <a class="button-green" href="#">Купить</a>
-              <a href="#">В закладки</a>
+              <a class="button-buy" href="#">Купить</a>
+              <a class="button-bookmark" href="#">В закладки</a>
             </div>
           </li>
           <li class="product-card">
@@ -153,8 +150,8 @@
               <p class="p-new-price">25500 p.</p>
             </div>
             <div class="product-buttons">
-              <a class="button-green" href="#">Купить</a>
-              <a href="#">В закладки</a>
+              <a class="button-buy" href="#">Купить</a>
+              <a class="button-bookmark" href="#">В закладки</a>
             </div>
           </li>
           <li class="product-card">
@@ -165,8 +162,8 @@
               <p class="p-new-price">25500 p.</p>
             </div>
             <div class="product-buttons">
-              <a class="button-green" href="#">Купить</a>
-              <a href="#">В закладки</a>
+              <a class="button-buy" href="#">Купить</a>
+              <a class="button-bookmark" href="#">В закладки</a>
             </div>
           </li>
           <li class="product-card">
@@ -177,12 +174,12 @@
               <p class="p-new-price">25500 p.</p>
             </div>
             <div class="product-buttons">
-              <a class="button-green" href="#">Купить</a>
-              <a href="#">В закладки</a>
+              <a class="button-buy" href="#">Купить</a>
+              <a class="button-bookmark" href="#">В закладки</a>
             </div>
           </li>
         </ul>
-        <a href="#" class="link-more">Все популярные товары</a>
+        <a href="#" class="link-more link-more-product">Все популярные товары</a>
       </section>
 
       <section class="section-container">
@@ -229,7 +226,7 @@
             </a>
           </li>
         </ul>
-        <a href="#" class="link-more">Все производители</a>
+        <a href="#" class="link-more link-more-manufacture">Все производители</a>
       </section>
     </div>
 
@@ -288,7 +285,7 @@
             <li class="delivery-item">Автотрейдинг</li>
             <li class="delivery-item">ЖелДорЭкспедиция</li>
           </ul>
-          <a href="#" class="link-more">Подробнее о компании</a>
+          <a href="#" class="link-more link-more-company">Подробнее о компании</a>
         </div>
 
         <div class="contacts-block">
