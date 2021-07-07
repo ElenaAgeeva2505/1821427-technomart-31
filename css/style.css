@@ -86,13 +86,6 @@ header {
   padding-right: 56px;
 }
 
-/*.header-top-logo  svg{
-  padding-top: 12px;
-  padding-bottom: 17px;
-  padding-left: 56px;
-  padding-right: 56px;
-}*/
-
 .search-form {
   grid-column: 2/2;
   margin-top: 9px;
@@ -860,42 +853,43 @@ header {
 
 .services-container {
   background-color: var(--basic-blue);
-  margin-bottom: 70px;
-  margin-top: 70px;
-  height: max-content;
+  margin-bottom: 80px;
+  padding: 40px 0 0;
 }
 
 .services-wrapper {
   width: 960px;
   margin: 0 auto;
   padding: 0 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
-.service-head {
-  grid-column: 1/2;
-  grid-row: 1/1;
-  width: 400px;
+.services-head {
+  max-width: 400px;
+  margin-bottom: 70px;
+}
+
+.service-slider{
+  display: flex;
+  justify-content: space-between;
 }
 
 .services-container h2 {
   font-size: 30px;
   color: #000000;
   text-transform: uppercase;
-  margin: 0;
+  margin-bottom: 25px;
 }
 
 .services-container h3 {
   font-size: 30px;
+  line-height: 36px;
+  margin: 0 0 25px;
   color: var(--basic-grey);
   text-transform: uppercase;
 }
 
 .services-container p {
+  display: block;
   font-family: PT Sans;
   font-size: 13px;
   color: #000000;
@@ -905,22 +899,51 @@ header {
   list-style: none;
   margin: 0;
   padding: 0;
-  grid-column: 1/1;
-  grid-row: 2/-1;
+  position: relative;
+  margin-right: 80px;
+}
+
+.description-service{
+  width: 620px;
+  min-height: 284px;
 }
 
 .service-block {
   display: none;
-  max-width: 360px;
-  margin-left: 80px;
+}
+
+.service-block p{
+  max-width: 300px;
 }
 
 .service-block-active {
-  display: inline-block;
-  grid-column: 2/-1;
-  grid-row: 2/-1;
+  display: block;
+  position: relative;
+  width: 620px;
+  height: 100%;
+  background-position: right 15px;
+  background-repeat: no-repeat;
 }
 
+.service-block-delivery{
+  background-image: url("../img/delivery.png");
+}
+
+.service-block-guarantee{
+  background-image: url("../img/guarantee.png");
+}
+
+.service-block-credit{
+  background-image: url("../img/credit.png");
+}
+
+.service-block-credit a{
+  display: inline-block;
+  padding: 11px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
 
 .service-item-link {
   display: block;
