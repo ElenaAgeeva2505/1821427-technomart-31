@@ -1329,6 +1329,7 @@ header {
   width: 14px;
   height: 12px;
   background: url("../img/icon-home.svg") no-repeat 0 0;
+  cursor: pointer;
 }
 
 .bread-crumbs a{
@@ -1371,14 +1372,23 @@ header {
   grid-column: 1/1;
   grid-row: 3/-1;
   margin: 0;
-  margin-top: 10px;
-  padding-top: 0;
+  margin-top: 20px;
+  padding: 0;
 }
 
 .head-filter {
-  padding-top: 12px;
-  padding-bottom: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 20px;
+}
+
+.filter-container h2{
+  font-family: PT Sans;
+  font-size: 13px;
+  margin:0;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #F7F3EC;
 }
 
 .range-fieldset {
@@ -1461,14 +1471,6 @@ header {
   font-size: 16px;
 }
 
-.filter-container h2{
-  font-family: PT Sans;
-  font-size: 13px;
-  text-transform: uppercase;
-  color: #000000;
-  background-color: #F7F3EC;
-}
-
 
 .legend-heading {
   font-family: PT Sans;
@@ -1546,7 +1548,6 @@ header {
 }
 
 .sort-container {
- /* height: 40px;*/
   margin-top: 20px;
   margin-left: 20px;
   display: flex;
@@ -1559,6 +1560,9 @@ header {
 
 .head-sort {
   padding-left: 20px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: PT Sans;
   font-size: 13px;
   text-transform: uppercase;
