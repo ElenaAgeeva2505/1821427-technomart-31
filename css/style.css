@@ -1383,6 +1383,7 @@ header {
 /*range*/
 
 .range-fieldset {
+  padding: 0;
   margin: 0;
   box-sizing: content-box;
   position: relative;
@@ -1421,9 +1422,8 @@ header {
   margin-bottom: 15px;
   margin-right: 0;
   margin-left: 0;
+  padding: 0;
   padding-top: 39px;
-  padding-right: 20px;
-  padding-left: 20px;
   border-radius: 5px;
 }
 
@@ -1528,6 +1528,7 @@ header {
 
 
 .fieldset-prod{
+  padding: 0;
   margin-top: 40px;
 }
 
@@ -1586,6 +1587,7 @@ header {
 
 
 .fieldset-energy{
+  padding: 0;
   margin-top: 15px;
   position: relative;
 }
@@ -1634,7 +1636,7 @@ header {
   border: 1px solid #EAEAEA;
   width: 220px;
   padding: 10px 78px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 /*sort*/
@@ -1653,8 +1655,6 @@ header {
 .head-sort {
   margin: 0;
   padding-left: 20px;
- /* padding-top: 10px;
-  padding-bottom: 10px;*/
   font-family: PT Sans;
   font-size: 13px;
   text-transform: uppercase;
@@ -1676,8 +1676,6 @@ header {
 
 .sort-list li {
   margin-right: 70px;
- /* padding-top:10px;
-  padding-bottom: 10px;*/
 }
 
 .sort-list li:not(:last-of-type) {
@@ -1713,8 +1711,6 @@ header {
 }
 
 .sort-arrow-link {
- /* padding-top: 10px;
-  padding-bottom: 10px;*/
   padding-right: 20px;
 }
 
@@ -1741,8 +1737,6 @@ header {
 .catalog {
   grid-column: 2/-1;
   grid-row: 4/4;
-  /*margin-left: 20px;
-  margin-top: 20px;*/
 }
 
 .product-list {
