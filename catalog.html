@@ -26,12 +26,18 @@
           </svg>
         </a>
 
-        <form class="search-form">
-          <label class="search-label">
-            Поиск: <input type="search" name="search">
-          </label>
-          <button type="submit" class="visually-hidden">Поиск</button>
+
+        <form class="search-form" method="get">
+        
+          <input class="search-input" type="search" name="search" placeholder="Поиск:">
+          <button class="search-btn" type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+            <path fill="#ffffff"
+              d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z" />
+          </svg>
+        </button>
         </form>
+        
         <ul class="head-top-list">
           <li class="head-top-item"><a href="#" class="bookmark-link">Закладки: 0</a></li>
           <li class="head-top-item"><a href="#" class="cart-link">Корзина: 0</a></li>
@@ -40,6 +46,7 @@
       </div>
     </div>
 
+    
     <div class="mid-head">
       <div class="mid-head-wrapper">
         <p class="head-info">Интернет-магазин <br>строительных материалов <br>и инструментов для ремонта</p>
@@ -85,7 +92,7 @@
         <li class="bread-crumbs-item"><a href="#">Перфораторы</a></li>
       </ul>
 
-      <div class="section-heading section-heading-catalog">
+      <div class="section-heading-catalog">
         <h2>Перфораторы</h2>
       </div>
 
@@ -166,23 +173,23 @@
       <div class="sort-container">
         <h2 class="head-sort">Сортировка:</h2>
         <ul class="sort-list">
-          <li><a class="sort-link-current" href="#">По цене</a></li>
+          <li class="sort-item-current"><a href="#">По цене</a></li>
           <li><a href="#">По типу</a></li>
           <li><a href="#">По функционалу</a></li>
         </ul>
-                  <a class="sort-arrow-link sort-arrow-current" href="#">
-            <span class="visually-hidden">По возрастанию</span>
-            <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5.5 0L11 10L0 10" fill="#EE3643"/>
-              </svg>
-          </a>
-          <a class="sort-arrow-link" href="#">
-            <span class="visually-hidden">По убыванию</span>
-            <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5.5 10L0 0H11" fill="#C5C5C5"/>
-              </svg>
-          </a>
-      
+        <a class="sort-arrow-link sort-arrow-current" href="#">
+          <span class="visually-hidden">По возрастанию</span>
+          <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.5 0L11 10L0 10" fill="#EE3643" />
+          </svg>
+        </a>
+        <a class="sort-arrow-link" href="#">
+          <span class="visually-hidden">По убыванию</span>
+          <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.5 10L0 0H11" fill="#C5C5C5" />
+          </svg>
+        </a>
+
       </div>
 
       <section class="catalog">
@@ -408,9 +415,9 @@
     <p class="popup-addproduct-title"> Товар добавлен в корзину!</p>
     <div class="popup-addproduct-btn">
       <div class="wrapper">
-      <a class="addproduct-btn addproduct-btn-order">Оформить заказ</a>
-      <a class="addproduct-btn addproduct-btn-continue">Продолжить покупки</a>
-    </div>
+        <a class="addproduct-btn addproduct-btn-order">Оформить заказ</a>
+        <a class="addproduct-btn addproduct-btn-continue">Продолжить покупки</a>
+      </div>
     </div>
     <button class="popup-close" type="button"><span class="visually-hidden">Закрыть</span></button>
   </div>
