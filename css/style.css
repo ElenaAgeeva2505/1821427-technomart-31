@@ -1378,16 +1378,16 @@ header {
 .bread-crumbs-list li:not(:first-of-type)::before {
   content: "";
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   left: -25px;
-  top: 4px;
+  top: 5px;
   border: 1px solid;
   border-color: #C1C6CE;
   border-left: none;
   border-bottom: none;
   transform: rotate(45deg);
-  vertical-align: middle;
+  vertical-align:baseline;
 }
 
 .bread-crumbs-list li:last-child {
