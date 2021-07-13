@@ -153,6 +153,7 @@ header {
   display: flex;
   justify-content: space-between;
   max-height: 42px;
+  height: 100%;
 }
 
 .head-top-item {
