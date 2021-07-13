@@ -2070,8 +2070,8 @@ header {
   left: 80px;
   width: 66px;
   height: 67px;
-  background: url("../img/icon-mark.svg") no-repeat 0 0;
   transform: translate(0, -50%);
+  background: url("../img/icon-mark.svg") no-repeat 0 0;
 }
 
 .popup-addproduct .addproduct-btn {
