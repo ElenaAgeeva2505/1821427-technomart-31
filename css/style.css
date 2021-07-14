@@ -1887,6 +1887,7 @@ header {
   opacity: 1;
   /* border-bottom: 1px solid var(--basic-red);*/
   text-decoration: underline solid var(--basic-red);
+  color: #000000;
 }
 
 .sort-item-current a {
