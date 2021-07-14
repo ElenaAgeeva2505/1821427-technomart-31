@@ -1914,7 +1914,12 @@ header {
   opacity: 1;
 }
 
-.sort-arrow-current path:hover {
+.sort-arrow-link:hover path{
+  opacity: 1;
+}
+
+.sort-arrow-current:hover path {
+  fill: #231f20;
   opacity: 1;
 }
 
