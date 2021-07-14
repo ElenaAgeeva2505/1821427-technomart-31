@@ -121,6 +121,11 @@ header {
   opacity: 0.3;
 }
 
+.search-form:hover .search-btn{
+  opacity: 1;
+  cursor: pointer;
+}
+
 .search-input:focus, .search-input:active {
   color: #000000;
   background-color: #ffffff;
@@ -132,9 +137,6 @@ header {
   opacity: 1;
 }
 
-.search-btn svg:hover {
-  opacity: 1;
-}
 
 .search-input::placeholder {
   color: #ffffff;
@@ -176,12 +178,8 @@ header {
   margin-bottom: 0;
 }
 
-.head-top-list a:hover {
-  opacity: 0.3;
-}
-
 .head-top-list a:active {
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .bookmark-link {
@@ -196,7 +194,13 @@ header {
   left: -22px;
   width: 14px;
   height: 16px;
-  background: url("../img/icon-bookmark.svg") no-repeat 0 0;
+  background: url("../img/icon-bookmark1.svg") no-repeat 0 0;
+  opacity: 0.4;
+}
+
+.bookmark-link:hover::before{
+  opacity: 1;
+  color: #FFFFFF;
 }
 
 .cart-link {
@@ -205,8 +209,19 @@ header {
   position: relative;
 }
 
+.cart-link:hover::before{
+  opacity: 1;
+  color: #FFFFFF;
+}
+
 .full-cart {
   background-color: var(--basic-red);
+}
+
+.full-cart:hover{
+  background-color: transparent;
+  color:#FFFFFF;
+  opacity: 1;
 }
 
 .cart-link::before {
@@ -216,7 +231,7 @@ header {
   left: 15px;
   width: 20px;
   height: 16px;
-  background: url("../img/icon-cart.svg") no-repeat 0 0;
+  background: url("../img/icon-cart3.svg") no-repeat 0 0;
   opacity: 0.4;
 }
 
@@ -225,6 +240,10 @@ header {
   padding-right: 22px;
   padding-left: 22px;
   color: #ffffff;
+}
+
+.order-link:hover{
+  background-color: #5FBB2D;
 }
 
 .mid-head {
@@ -1349,7 +1368,6 @@ header {
 }
 
 .bread-crumbs {
-  padding: 0 20px 0 0;
   grid-row: 1/2;
   grid-column: 1/-1;
   position: relative;
@@ -1367,12 +1385,14 @@ header {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .bread-crumbs-list li {
   position: relative;
   margin-right: 15px;
   padding-right: 25px;
+ 
 }
 
 .bread-crumbs-list li:not(:first-of-type)::before {
@@ -1808,7 +1828,7 @@ header {
   color: #000000;
   mix-blend-mode: normal;
   opacity: 0.3;
-  text-decoration: underline dashed var(--basic-red);
+  text-decoration: underline dotted var(--basic-red);
   /*border-bottom: 1px dashed var(--basic-red);*/
 }
 
