@@ -1381,13 +1381,14 @@ header {
   width: 7px;
   height: 7px;
   left: -25px;
-  top: 5px;
+  top: 6px;
   border: 1px solid;
   border-color: #C1C6CE;
   border-left: none;
   border-bottom: none;
   transform: rotate(45deg);
-  vertical-align:baseline;
+  vertical-align:middle;
+  display: inline-block;
 }
 
 .bread-crumbs-list li:last-child {
@@ -1415,11 +1416,12 @@ header {
 .bread-crumbs-home::before {
   content: "";
   position: absolute;
-  top: -8px;
+  top: -6px;
   left: 5px;
   width: 16px;
   height: 13px;
   vertical-align: middle;
+  display: inline-block;
   background: url("../img/icon-home.svg") no-repeat 0 0;
 }
 
