@@ -1963,7 +1963,7 @@ header {
   align-items: center;
 }
 
-.pagination-item {
+.pagination-list li {
   font-family: PT Sans;
   font-size: 13px;
   color: #000000;
@@ -1973,14 +1973,14 @@ header {
   padding: 10px 15px;
 }
 
-.pagination-item:hover {
+.pagination-list li:hover {
   cursor: pointer;
   border: 1px solid #C5C5C5;
   box-sizing: border-box;
   border-radius: 2px;
 }
 
-.pagination-item:hover:active {
+.pagination-list li:active {
   border: 1px solid #EE3643;
   box-sizing: border-box;
   border-radius: 2px;
@@ -2039,6 +2039,8 @@ header {
 .about-product-container p {
   font-family: PT Sans;
   font-size: 13px;
+  line-height: 24px;
+  text-transform: none;
 }
 
 /*popup*/
