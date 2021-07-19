@@ -1745,7 +1745,10 @@ header {
   transform: rotate(-45deg);
 }
 
-.filter-option label:hover::before, .filter-option label:hover::after {
+.filter-option label:hover::before, 
+.filter-option label:hover::after,
+.filter-option label:focus::before, 
+.filter-option label:focus::after {
   border-color: #B5B5B5;
 }
 
@@ -1799,11 +1802,17 @@ header {
   opacity: 0.7;
 }
 
-.filter-input-radio+label:hover::before {
+.filter-input-radio+label:hover::before,
+.filter-input-radio+label:focus::before{
   border-color: #B5B5B5;
 }
 
-.filter-input-radio+label:hover::after {
+.filter-input-radio+label:hover::after,
+.filter-input-radio+label:focus::after {
+  border-color: #B5B5B5;
+}
+
+.filter-input:focus{
   border-color: #B5B5B5;
 }
 
